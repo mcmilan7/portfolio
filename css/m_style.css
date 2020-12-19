@@ -1,0 +1,82 @@
+*{margin: 0;}
+
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;color: black;}
+
+header{height: 8.2rem; background-color: #ffffff;}
+header > nav{margin: auto;display: flex;justify-content: space-between;align-items: center;}
+header > nav > .logo{display: inline-block; padding: 2.2rem 0rem 2.2rem 3rem;}
+header > nav > .menu{display: inline-block; padding: 3.2rem 3rem 3.2rem 0rem;}
+
+header > .nav_menu{position: relative; display: none;}
+header > .nav_menu > ul{display:inline-block; width: 100%; padding: 0rem 0rem;}
+header > .nav_menu > ul > li{list-style: none;text-align: right; background-color: #FFD8D8;padding: 3rem 3rem;
+border-bottom: 0.25px solid #FFC8C8;}
+header > .nav_menu > ul > li > a{font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 700;}
+header > .nav_menu > ul > li:hover{background-color: #FFC8C8;}
+
+header > .nav_menu.active{display: flex;}
+
+section > .top{background-image: url('../img/m_title_bg.png');
+height:33.3rem; background-position: center; background-repeat: no-repeat;background-color: #FFD8D8;}
+
+.title_box{margin: auto; width:35.4rem;padding-top: 12rem;text-align: center;}
+.title{text-align: left;font-family: 'Noto Sans KR', sans-serif; font-size:3.5rem;
+font-weight: 900; letter-spacing: -1px;}
+
+
+section > .profile {background-image: url('../img/m_profile_bg.png');
+background-repeat: no-repeat;}
+
+section > .profile{text-align: center;}
+section > .profile > .pf_01{padding-top: 10rem;}
+section > .profile > .pf_02{padding-top: 10rem;}
+section > .profile > .pf_03{padding-top: 10rem;}
+section > .profile > .pf_04{padding-top: 10rem;}
+section > .profile > .pf_05{padding-top: 10rem;}
+
+
+section > .works{text-align: center; padding-top: 10rem;}
+
+section > .contents{text-align: center;}
+section > .contents > .bt_01{padding-top: 6rem;}
+section > .contents > .bt_02{padding-top: 4rem;}
+section > .contents > .bt_03{padding-top: 4rem;}
+section > .contents > .bt_04{padding-top: 4rem;}
+section > .contents > .bt_05{padding-top: 4rem;}
+section > .contents > .bt_06{padding-top: 4rem; padding-bottom: 10rem;}
+
+
+/*공통*/
+.m_top{text-align: center;}
+.m_contents{text-align: center;}
+
+/*Branding*/
+section > .m_contents > .m_cp_01{padding-top: 8rem;}
+section > .m_contents > .m_cp_02{padding-top: 8rem;}
+section > .m_contents > .m_cp_03{padding-top: 10rem; padding-bottom: 10rem;}
+
+section > .m_contents > .m_xi_01{padding-top: 8rem;}
+section > .m_contents > .m_xi_02{padding-top: 8rem;}
+section > .m_contents > .m_xi_03{padding-top: 10rem; padding-bottom: 10rem;}
+
+/*Editorial*/
+section > .m_contents > .m_higashino_01{padding-top: 10rem;}
+section > .m_contents > .m_higashino_02{padding-top: 10rem; padding-bottom: 10rem;}
+
+section > .m_contents > .m_mc_01{padding-top: 10rem;}
+section > .m_contents > .m_mc_02{padding-top: 10rem; padding-bottom: 10rem;}
+
+/*UX/UI*/
+section > .m_contents > .m_ps5_01{padding-top: 10rem;}
+section > .m_contents > .m_ps5_02{padding-top: 10rem; padding-bottom: 10rem;}
+
+/*Package*/
+section > .m_contents > .m_star_01{padding-top: 10rem;}
+section > .m_contents > .m_star_02{padding-top: 10rem; padding-bottom: 10rem;}
+
+
+
+footer{background-color: #FFD8D8; height: 24rem; text-align: left;}
+footer > img{padding-left: 3rem; padding-top: 7rem;}

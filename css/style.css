@@ -1,0 +1,79 @@
+*{margin: 0;}
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;}
+
+header{width: 100%; border-bottom: 1px solid #D0D0D0;
+  background-color: #ffffff; position: fixed;}
+header > nav{margin: auto; width: 102.4rem; height: 8rem;
+  display: flex; justify-content: space-between; align-items: center;}
+
+header > nav > .menu {display: inline-block;}
+header > nav > .menu > ul {list-style: none;}
+header > nav > .menu > ul > li {float: left; margin: 0rem 2rem;}
+header > nav > .menu > ul > li > a {font-family: 'Noto Sans KR', sans-serif;
+color: black; font-size: 1.5rem; font-weight: 700;}
+header > nav > .menu > ul > li > a:hover {color: gray;}
+
+.title {text-align: left; font-family: 'Noto Sans KR', sans-serif; font-size: 8.5rem; font-weight: 900; letter-spacing: -3px;}
+
+section > .keyvisual {background-image: url('../img/02_keyvisual_bg.png');height:85rem;
+background-repeat: no-repeat; background-size: contain;background-position: center; background-color:#FFD8D8;}
+section > .keyvisual > .keyvisual_wrap {margin:auto; width: 102.4rem;height: 70rem;}
+section > .keyvisual > .keyvisual_wrap > .keyvisual_title {text-align: left; padding-top: 35rem; }
+
+section > .profile {background-image: url('../img/04_profile.png');height:170rem;
+background-repeat: no-repeat; background-size:contain; background-position: center;}
+section > .profile > .profile_wrap {margin:auto; width: 102.4rem;}
+section > .profile > .profile_wrap > .profile_01 {padding-top: 10.4rem;}
+section > .profile > .profile_wrap > .profile_02 {padding-top: 10.4rem;}
+
+section > .bottom{align-items: center; padding-bottom: 30rem;}
+section > .bottom > .bot_tit{margin: auto;text-align: left;width:102.4rem;padding-top: 10rem;}
+section > .bottom > .bot_wrap{margin: auto; width: 102.4rem;display: flex;
+justify-content: space-between;align-items: center;padding-top: 3rem;}
+
+.bot_bt_1:hover {background-image: url('../img/04_profile.png'); transition: 1s;}
+
+
+/*쿠팡*/
+.top{text-align:center;}
+section > .coupang > .cp_wrap{margin: auto; text-align: center; padding-bottom: 30rem;}
+section > .coupang > .cp_wrap > .cp_txt_01{padding-top: 9rem;}
+section > .coupang > .cp_wrap > .cp_img_01{padding-top: 30rem;}
+section > .coupang > .cp_wrap > .cp_img_02{padding-top: 30rem;}
+
+/*자이*/
+section > .xi > .xi_wrap{margin: auto; text-align: center; padding-bottom: 30rem;}
+section > .xi > .xi_wrap > .xi_txt_01{padding-top: 9rem;}
+section > .xi > .xi_wrap > .xi_img_01{padding-top: 30rem;}
+section > .xi > .xi_wrap > .xi_img_02{padding-top: 30rem;}
+
+/*PS5*/
+section > .ps5 > .ps5_wrap{margin: auto; text-align: center;padding-bottom: 30rem;}
+section > .ps5 > .ps5_wrap > .ps5_txt_01{padding-top: 9rem;}
+section > .ps5 > .ps5_wrap > .ps5_img_01{padding-top: 30rem;}
+
+/*용의자X의 헌신*/
+section > .higashino > .higashino_wrap{margin: auto; text-align: center; padding-bottom: 30rem;}
+section > .higashino > .higashino_wrap > .higashino_txt_01{padding-top: 9rem;}
+section > .higashino > .higashino_wrap > .higashino_img_01{padding-top: 30rem;}
+
+/*맥도날드*/
+section > .mcdonalds > .mc_wrap{margin: auto; text-align: center; padding-bottom: 30rem;}
+section > .mcdonalds > .mc_wrap > .mc_txt_01{padding-top: 9rem;}
+section > .mcdonalds > .mc_wrap > .mc_img_01{padding-top: 30rem;}
+
+/*스타벅스*/
+section > .starbucks > .st_wrap{margin: auto; text-align: center; padding-bottom: 30rem;}
+section > .starbucks > .st_wrap > .st_txt_01{padding-top: 9rem;}
+section > .starbucks > .st_wrap > .st_img_01{padding-top: 30rem;}
+
+
+/*푸터*/
+footer{background-color: #FFD8D8; align-items: center;height: 10rem;}
+footer > .footer_wrap{margin: auto; width: 102.4rem;}
+footer > .footer_wrap > .footer_logo{float: left; padding-top: 3.2rem;}
+footer > .footer_wrap > .footer_txt{float: right; padding-top: 3.2rem; text-align: right;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: black; font-size: 1.25rem; font-weight: 500; letter-spacing: 1px;}
