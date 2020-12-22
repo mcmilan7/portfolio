@@ -5,7 +5,7 @@ a{text-decoration: none;}
 
 header{width: 100%; border-bottom: 1px solid #D0D0D0;
   background-color: #ffffff; position: fixed; display: flex; }
-header > nav{margin: auto; width: 102.4rem; height: 8rem;
+header > nav{margin: auto; width: 1024px; height: 80px;
   display: flex; justify-content: space-between; align-items: center;}
 
 header > nav > .menu {display: inline-block;}
@@ -15,12 +15,12 @@ header > nav > .menu > ul > li > a {font-family: 'Noto Sans KR', sans-serif;
 color: black; font-size: 1.5rem; font-weight: 700;}
 header > nav > .menu > ul > li > a:hover {color: gray;}
 
-.title {text-align: left; font-family: 'Noto Sans KR', sans-serif; font-size: 8.5rem; font-weight: 900; letter-spacing: -3px;}
+.title{text-align: left; font-family: 'Noto Sans KR', sans-serif; font-size: 64px; font-weight: bolder;letter-spacing: -3px;}
 
-section > .keyvisual {background-image: url('../img/02_keyvisual_bg.png');height:90rem;
-background-repeat: no-repeat; background-position: center; background-color:#FFD8D8;}
+section > .keyvisual {background-image: url('../img/02_keyvisual_bg.png');height:700px;
+background-repeat: no-repeat; background-position: center; background-color:cyan;}
 section > .keyvisual > .keyvisual_wrap {margin:auto; width: 102.4rem;height: 70rem;}
-section > .keyvisual > .keyvisual_wrap > .keyvisual_title {text-align: left; padding-top: 35rem; }
+section > .keyvisual > .keyvisual_wrap > .keyvisual_title {text-align: left; padding-top: 300px;}
 
 section > .profile {background-image: url('../img/04_profile.png');height:170rem;
 background-repeat: no-repeat; background-size:contain; background-position: center;}
@@ -30,7 +30,7 @@ section > .profile > .profile_wrap > .profile_02 {padding-top: 10.4rem;}
 
 section > .bottom{align-items: center; padding-bottom: 30rem;}
 section > .bottom > .bot_tit{margin: auto;text-align: left;width:102.4rem;padding-top: 10rem;}
-section > .bottom > .bot_wrap{margin: auto; width: 102.4rem;display: flex;
+section > .bottom > .bot_wrap{margin: auto; width: 102.4rem; display: flex;
 justify-content: space-between;align-items: center;padding-top: 3rem;}
 
 .bot_bt_1:hover {background-image: url('../img/04_profile.png'); transition: 1s;}
@@ -71,8 +71,8 @@ section > .starbucks > .st_wrap > .st_img_01{padding-top: 30rem;}
 
 
 /*푸터*/
-footer{background-color: #FFD8D8; align-items: center;height: 10rem;}
-footer > .footer_wrap{margin: auto; width: 102.4rem;}
+footer{background-color: #FFD8D8; align-items: center;height: 10rem; display: flex;}
+footer > .footer_wrap{margin: auto; width: 1024px;}
 footer > .footer_wrap > .footer_logo{float: left; padding-top: 3.2rem;}
 footer > .footer_wrap > .footer_txt{float: right; padding-top: 3.2rem; text-align: right;
   font-family: 'Noto Sans KR', sans-serif;
