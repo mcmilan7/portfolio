@@ -10,7 +10,7 @@ header > nav{margin: auto; width: 1024px; height: 80px;
 
 header > nav > .menu {display: inline-block;}
 header > nav > .menu > ul {list-style: none;}
-header > nav > .menu > ul > li {float: left; margin: 0rem 2rem;}
+header > nav > .menu > ul > li {float: left; margin: 0rem 0rem 0rem 4rem;}
 header > nav > .menu > ul > li > a {font-family: 'Noto Sans KR', sans-serif;
 color: black; font-size: 1.5rem; font-weight: 700;}
 header > nav > .menu > ul > li > a:hover {color: gray;}
