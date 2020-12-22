@@ -4,7 +4,7 @@ body{font-size: 1rem;}
 a{text-decoration: none;}
 
 header{width: 100%; border-bottom: 1px solid #D0D0D0;
-  background-color: #ffffff; position: fixed;}
+  background-color: #ffffff; position: fixed; display: flex; }
 header > nav{margin: auto; width: 102.4rem; height: 8rem;
   display: flex; justify-content: space-between; align-items: center;}
 
@@ -17,8 +17,8 @@ header > nav > .menu > ul > li > a:hover {color: gray;}
 
 .title {text-align: left; font-family: 'Noto Sans KR', sans-serif; font-size: 8.5rem; font-weight: 900; letter-spacing: -3px;}
 
-section > .keyvisual {background-image: url('../img/02_keyvisual_bg.png');height:85rem;
-background-repeat: no-repeat; background-size: contain;background-position: center; background-color:#FFD8D8;}
+section > .keyvisual {background-image: url('../img/02_keyvisual_bg.png');height:90rem;
+background-repeat: no-repeat; background-position: center; background-color:#FFD8D8;}
 section > .keyvisual > .keyvisual_wrap {margin:auto; width: 102.4rem;height: 70rem;}
 section > .keyvisual > .keyvisual_wrap > .keyvisual_title {text-align: left; padding-top: 35rem; }
 
