@@ -18,7 +18,7 @@ header > nav > .menu > ul > li > a:hover {color: gray;}
 .title{text-align: left; font-family: 'Noto Sans KR', sans-serif; font-size: 64px; font-weight: bolder;letter-spacing: -3px;}
 
 section > .keyvisual {background-image: url('../img/02_keyvisual_bg.png');height:700px;
-background-repeat: no-repeat; background-position: center; background-color:cyan;}
+background-repeat: no-repeat; background-position: center; background-color:#ffd8d8;}
 section > .keyvisual > .keyvisual_wrap {margin:auto; width: 102.4rem;height: 70rem;}
 section > .keyvisual > .keyvisual_wrap > .keyvisual_title {text-align: left; padding-top: 300px;}
 
